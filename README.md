@@ -6,7 +6,8 @@ Installation
 
 Download the proto3 compiler  from https://github.com/protocolbuffers/protobuf/releases/tag/v3.14.0  and keep the exe in GOPATH  e.g C:\Users\{Name}\go\bin and copy the include folder from the zip to same folder e.g C:\Users\{Name}\go
 
-Run the command  go get github.com/golang/protobuf/protoc-gen-go to add the protobnf plugin for GO
+Run the below command to add the protobnf plugin for GO
+go get github.com/golang/protobuf/protoc-gen-go 
 
 Step 1 : 
 Create a file with .proto extension to create message  e.g addressbook.proto
