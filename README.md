@@ -12,7 +12,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 Step 1 : 
 Create a file with .proto extension to create message  e.g addressbook.proto
 
-option go_package = "./output"; -> Use a directory path where teh generate code should be stored
+option go_package = "./output"; -> Use a directory path where the generated code should be stored
 
 run the below command to generate code for the .proto file
 protoc -I={exact directory  path} --go_out={exact directory path} {exact directory path}\addressbook.proto
